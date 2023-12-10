@@ -8,12 +8,11 @@
 
 fruits=(Apple Banana Orange Grapes Mango)
 
-# Loop through the array
 for fruit in "${fruits[@]}"
 do
   echo "Processing $fruit"
-  # Add your processing logic here
 done
+
 read number
 if [[ $number -gt 2 ]]; then
     echo "helllo"
