@@ -1,0 +1,11 @@
+address:
+  street: 123 Main St
+  zip: '10001'
+age: 30
+city: New York
+grades:
+- 95
+- 87
+- 91
+isStudent: false
+name: John Doe
