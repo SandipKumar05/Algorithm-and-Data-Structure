@@ -1,3 +1,4 @@
+# incorrect
 def sol(coins,v):
     coins.sort()
     print(coins)
@@ -9,7 +10,7 @@ def sol(coins,v):
         if v==0:
             break
     return ans
-coins = [7,9,8]; V = 6
+coins = [9,6,5,1]; V = 11
 print(sol(coins,V))
 # above greedy approch not works here, ans=3+3 but it will give you ans=4+1+1
 # Use dynamic programing
