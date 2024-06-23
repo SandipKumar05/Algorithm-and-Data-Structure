@@ -6,6 +6,3 @@
     file:
       path: /home/sandip/test.txt
       state: touch
-
-I worked on optimizing Dockerfiles for all microservices by employing multi-stage Docker builds, selecting the appropriate base image, leveraging caching mechanisms, minimizing the number of layers, and eliminating unnecessary files/binaries. These enhancements contribute to expediting the deployment process and lowering costs for the company.
-Collaborated with the developer to migrate services from an EC2 instance to Kubernetes by dockerizing the application within a Dockerfile, performing comprehensive testing in lower environments, and successfully executing the transition without any downtime.
