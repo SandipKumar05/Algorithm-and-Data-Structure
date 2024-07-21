@@ -1,0 +1,30 @@
+Example systems questions asked in Meta production engineer interviews
+What happens during the boot process from the moment you turn on the machine until you get a login prompt?
+What happens in Linux, on a kernel level, when you type in ls -l?
+How would you troubleshoot a system in which you are not able to start an application on the server?
+if you had a program that needed 1TB of RAM and you only have 16GB, how would the Linux system allocate memory?
+What is the default signal that is generated when sending a kill command to a process in Linux?
+How do you determine if a drive is full?
+What does "$?" mean in bash?
+What does the command uname -r do?
+What part of the tcp header does traceroute modify?
+What's a zombie process?
+Can you kill a zombie processs?
+How do you load a Linux kernel
+What's a signal and how is it handled by the kernel?
+What is the swap area, regarding memory?
+How do you load a module into the linux kernel?
+In IPv6 what is the A record equivalent?
+Write a script that connects to 100 hosts, looks for a particular process and sends an email with a report
+How does strace work? - it uses trace syscall
+How do you trace all the function calls in a running process?
+How do you see which disks are currently mounted? - df -h
+List the ways to catch a signal for a program that you don't have source code for - strace pid 
+What signal is sent to a parent process when the child process terminates? - sigchild
+Explain containerization
+How do you make a process a service?
+Tell me something about swap
+How can you find whether a process is I/O bound or CPU bound?
+What is a filesystem and how does it work?
+How does the system call go from user from kernel space?
+
