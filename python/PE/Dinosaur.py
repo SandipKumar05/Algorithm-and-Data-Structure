@@ -1,6 +1,7 @@
 # Approach	            Efficiency	Memory Usage	Notes
 # for line in f	More efficient	Lower	Uses buffering for faster line-by-line reading.
-# for line in f.readline()	Less efficient	Potentially higher	Reads each line individually, requiring more disk access.
+# for line in f.readline()	Less efficient	Potentially higher	Reads each line individually, 
+# requiring more disk access.
 import csv
 def sorted_speed():
     g=9.8

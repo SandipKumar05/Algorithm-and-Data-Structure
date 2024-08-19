@@ -1,4 +1,6 @@
-# There is a matrix with . and X, where X represents battleship, always of length 3. Battleship can be vertical or horizontal, never diagonal. Given a function bomb_at(i,j), returns True if battleship is present at (i,j) in the matrix. Print the head, middle, tail coordinates of the battleship.
+# There is a matrix with . and X, where X represents battleship, always of length 3. Battleship can be vertical 
+# or horizontal, never diagonal. Given a function bomb_at(i,j), returns True if battleship is present at (i,j) 
+# in the matrix. Print the head, middle, tail coordinates of the battleship.
 
 # I asked a question to clarify, and as it turns out there will always be one battleship.
 

@@ -11,6 +11,7 @@ def divide(x, y):
         print("Yeah ! Your answer is :", result) 
     except ZeroDivisionError: 
         print("Sorry ! You are dividing by zero ")
+        raise CustomError("hello world")
     except CustomError:
         print("This is our custom exception")
     except Exception as e:

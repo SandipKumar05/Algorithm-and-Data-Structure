@@ -2,6 +2,7 @@ Design a botnet that can exploit 10000 low-end machines to run code. All machine
 Design a system that stores and retrieves images for Facebook
 How would you design a cache API?
 How would you design a system that manipulates content sent from a client? (e.g. to clean offensive words in a comment post)?
+design a pubsub system
 
 Example career questions asked in the Meta production engineer interview
 
